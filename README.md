@@ -1,0 +1,1 @@
+# Rick y Morty API
