@@ -1,15 +1,14 @@
-
 import CharacterList from './components/CharacterList'
-import CharacterCard from './components/Charactercard'
+
 
 function App() {
 
   
-  return <div>
-        <h1>Rick y Morty</h1>
+  return <div className='bg-dark  text-white'>
+        <h1 className='text-center text-info fw-bold display-1 py-4 '>Rick y Morty</h1>
 
         <CharacterList/>
-        <CharacterCard/>
+        
 
       </div>;
     
