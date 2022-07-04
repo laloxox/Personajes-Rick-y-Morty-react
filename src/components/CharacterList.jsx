@@ -4,12 +4,12 @@ import CharacterCard from './CharacterCard';
 
 function NavPage (props) {
     return (
-        <header className="d-flex justify-content-between aling-items-center">
+        <header className="d-flex justify-content-between aling-items-center py-3">
             <button className="btn btn-success" onClick={() => props.setPage(props.page - 1)}>
                 Anterior
             </button>
 
-            <span class="badge text-bg-secondary">Page #{props.page}</span>
+            <span class="badge ">Page #{props.page}</span>
 
             <button className="btn btn-success" onClick={() => props.setPage(props.page + 1)}>
                 Siguiente
