@@ -9,11 +9,7 @@ function NavPage (props) {
                 Anterior
             </button>
 
-<<<<<<< HEAD
-            <span class="badge text-bg-secondary justify-content-around">Page #{props.page}</span>
-=======
             <span className="badge ">Page #{props.page}</span>
->>>>>>> 7036e78b9c99a8ec8f0698736fe999d2d20d3481
 
             <button className="btn btn-success" onClick={() => props.setPage(props.page + 1)}>
                 Siguiente
