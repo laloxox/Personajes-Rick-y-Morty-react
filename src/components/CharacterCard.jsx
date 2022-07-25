@@ -5,6 +5,7 @@ function CharacterCard({ character }) {
     <Fade>
         <div className="text-center p-5">
             
+            
             <h2>{character.name}</h2>
             <img className="img-fluid rounded-pill" src={character.image} alt={character.name}/>
             <h4 className="text-secondary p-3">Origen: {character.origin.name}</h4>
