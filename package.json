@@ -11,6 +11,10 @@
   "dependencies": {
     "bootstrap": "^5.2.0",
     "gh-pages": "^4.0.0",
+<<<<<<< HEAD
+=======
+    "react-awesome-reveal": "^3.8.1",
+>>>>>>> 4bceab1a4a917c06001e6d86ca5085e145286f83
     "react-dom": "^18.2.0"
   },
   "devDependencies": {

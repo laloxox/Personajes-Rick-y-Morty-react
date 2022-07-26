@@ -3,6 +3,9 @@ import CharacterCard from './CharacterCard';
 
 
 function NavPage (props) {
+
+
+
     return (
         <header className="d-flex justify-content-between aling-items-center py-3">
             <button className="btn btn-success" onClick={() => props.setPage(props.page - 1)}>
@@ -20,6 +23,19 @@ function NavPage (props) {
     
 }
 
+    {/* 👇️ scroll to top on button click */}
+
+    function ScrollToTop() {
+
+        return(
+            <div className="d-flex justify-content-center aling-items-center">
+            <button type="button" className="btn btn-primary" 
+            onClick={() => {
+                window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
+                }}>Top</button>
+            </div>
+        )
+    }
 
 
 function CharacterList() {
@@ -65,6 +81,8 @@ function CharacterList() {
                 </div>
             )}
             <NavPage page={page} setPage={setPage}/>
+
+            <ScrollToTop></ScrollToTop>
         </div>
     );
 }
